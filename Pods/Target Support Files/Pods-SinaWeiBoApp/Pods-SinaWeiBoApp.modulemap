@@ -1,0 +1,6 @@
+framework module Pods_SinaWeiBoApp {
+  umbrella header "Pods-SinaWeiBoApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

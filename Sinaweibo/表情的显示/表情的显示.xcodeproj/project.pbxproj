@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2971D6231E45A2950061EE66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6221E45A2950061EE66 /* AppDelegate.swift */; };
+		2971D6251E45A2950061EE66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6241E45A2950061EE66 /* ViewController.swift */; };
+		2971D6281E45A2950061EE66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2971D6261E45A2950061EE66 /* Main.storyboard */; };
+		2971D62A1E45A2950061EE66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2971D6291E45A2950061EE66 /* Assets.xcassets */; };
+		2971D62D1E45A2950061EE66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2971D62B1E45A2950061EE66 /* LaunchScreen.storyboard */; };
+		2971D6381E45A2950061EE66 /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6371E45A2950061EE66 /* _____Tests.swift */; };
+		2971D6431E45A2950061EE66 /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6421E45A2950061EE66 /* _____UITests.swift */; };
+		2971D65C1E45A3600061EE66 /* EmoticonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6531E45A3600061EE66 /* EmoticonController.swift */; };
+		2971D65D1E45A3600061EE66 /* EmoticonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6541E45A3600061EE66 /* EmoticonViewCell.swift */; };
+		2971D65E1E45A3600061EE66 /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6561E45A3600061EE66 /* Emoticon.swift */; };
+		2971D65F1E45A3600061EE66 /* EmoticonAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6571E45A3600061EE66 /* EmoticonAttachment.swift */; };
+		2971D6601E45A3600061EE66 /* EmoticonManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6581E45A3600061EE66 /* EmoticonManger.swift */; };
+		2971D6611E45A3600061EE66 /* EmoticonPackage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6591E45A3600061EE66 /* EmoticonPackage.swift */; };
+		2971D6621E45A3600061EE66 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2971D65A1E45A3600061EE66 /* Emoticons.bundle */; };
+		2971D6631E45A3600061EE66 /* UITextView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D65B1E45A3600061EE66 /* UITextView-Extension.swift */; };
+		2971D6651E45A38D0061EE66 /* FindEmoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2971D6641E45A38D0061EE66 /* FindEmoticon.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2971D6341E45A2950061EE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2971D6171E45A2950061EE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2971D61E1E45A2950061EE66;
+			remoteInfo = "表情的显示";
+		};
+		2971D63F1E45A2950061EE66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2971D6171E45A2950061EE66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2971D61E1E45A2950061EE66;
+			remoteInfo = "表情的显示";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2971D61F1E45A2950061EE66 /* 表情的显示.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "表情的显示.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2971D6221E45A2950061EE66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2971D6241E45A2950061EE66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2971D6271E45A2950061EE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2971D6291E45A2950061EE66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2971D62C1E45A2950061EE66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2971D62E1E45A2950061EE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2971D6331E45A2950061EE66 /* 表情的显示Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情的显示Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2971D6371E45A2950061EE66 /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		2971D6391E45A2950061EE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2971D63E1E45A2950061EE66 /* 表情的显示UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "表情的显示UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2971D6421E45A2950061EE66 /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		2971D6441E45A2950061EE66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2971D6531E45A3600061EE66 /* EmoticonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonController.swift; sourceTree = "<group>"; };
+		2971D6541E45A3600061EE66 /* EmoticonViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonViewCell.swift; sourceTree = "<group>"; };
+		2971D6561E45A3600061EE66 /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		2971D6571E45A3600061EE66 /* EmoticonAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonAttachment.swift; sourceTree = "<group>"; };
+		2971D6581E45A3600061EE66 /* EmoticonManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonManger.swift; sourceTree = "<group>"; };
+		2971D6591E45A3600061EE66 /* EmoticonPackage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonPackage.swift; sourceTree = "<group>"; };
+		2971D65A1E45A3600061EE66 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		2971D65B1E45A3600061EE66 /* UITextView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView-Extension.swift"; sourceTree = "<group>"; };
+		2971D6641E45A38D0061EE66 /* FindEmoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindEmoticon.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2971D61C1E45A2950061EE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D6301E45A2950061EE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D63B1E45A2950061EE66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2971D6161E45A2950061EE66 = {
+			isa = PBXGroup;
+			children = (
+				2971D6211E45A2950061EE66 /* 表情的显示 */,
+				2971D6361E45A2950061EE66 /* 表情的显示Tests */,
+				2971D6411E45A2950061EE66 /* 表情的显示UITests */,
+				2971D6201E45A2950061EE66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2971D6201E45A2950061EE66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2971D61F1E45A2950061EE66 /* 表情的显示.app */,
+				2971D6331E45A2950061EE66 /* 表情的显示Tests.xctest */,
+				2971D63E1E45A2950061EE66 /* 表情的显示UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2971D6211E45A2950061EE66 /* 表情的显示 */ = {
+			isa = PBXGroup;
+			children = (
+				2971D6521E45A3600061EE66 /* Emoticon */,
+				2971D6221E45A2950061EE66 /* AppDelegate.swift */,
+				2971D6241E45A2950061EE66 /* ViewController.swift */,
+				2971D6261E45A2950061EE66 /* Main.storyboard */,
+				2971D6291E45A2950061EE66 /* Assets.xcassets */,
+				2971D62B1E45A2950061EE66 /* LaunchScreen.storyboard */,
+				2971D62E1E45A2950061EE66 /* Info.plist */,
+			);
+			path = "表情的显示";
+			sourceTree = "<group>";
+		};
+		2971D6361E45A2950061EE66 /* 表情的显示Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2971D6371E45A2950061EE66 /* _____Tests.swift */,
+				2971D6391E45A2950061EE66 /* Info.plist */,
+			);
+			path = "表情的显示Tests";
+			sourceTree = "<group>";
+		};
+		2971D6411E45A2950061EE66 /* 表情的显示UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2971D6421E45A2950061EE66 /* _____UITests.swift */,
+				2971D6441E45A2950061EE66 /* Info.plist */,
+			);
+			path = "表情的显示UITests";
+			sourceTree = "<group>";
+		};
+		2971D6521E45A3600061EE66 /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				2971D6531E45A3600061EE66 /* EmoticonController.swift */,
+				2971D6541E45A3600061EE66 /* EmoticonViewCell.swift */,
+				2971D6551E45A3600061EE66 /* Models */,
+			);
+			path = Emoticon;
+			sourceTree = "<group>";
+		};
+		2971D6551E45A3600061EE66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2971D6561E45A3600061EE66 /* Emoticon.swift */,
+				2971D6571E45A3600061EE66 /* EmoticonAttachment.swift */,
+				2971D6581E45A3600061EE66 /* EmoticonManger.swift */,
+				2971D6591E45A3600061EE66 /* EmoticonPackage.swift */,
+				2971D65A1E45A3600061EE66 /* Emoticons.bundle */,
+				2971D65B1E45A3600061EE66 /* UITextView-Extension.swift */,
+				2971D6641E45A38D0061EE66 /* FindEmoticon.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2971D61E1E45A2950061EE66 /* 表情的显示 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2971D6471E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示" */;
+			buildPhases = (
+				2971D61B1E45A2950061EE66 /* Sources */,
+				2971D61C1E45A2950061EE66 /* Frameworks */,
+				2971D61D1E45A2950061EE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "表情的显示";
+			productName = "表情的显示";
+			productReference = 2971D61F1E45A2950061EE66 /* 表情的显示.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2971D6321E45A2950061EE66 /* 表情的显示Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2971D64A1E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示Tests" */;
+			buildPhases = (
+				2971D62F1E45A2950061EE66 /* Sources */,
+				2971D6301E45A2950061EE66 /* Frameworks */,
+				2971D6311E45A2950061EE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2971D6351E45A2950061EE66 /* PBXTargetDependency */,
+			);
+			name = "表情的显示Tests";
+			productName = "表情的显示Tests";
+			productReference = 2971D6331E45A2950061EE66 /* 表情的显示Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2971D63D1E45A2950061EE66 /* 表情的显示UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2971D64D1E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示UITests" */;
+			buildPhases = (
+				2971D63A1E45A2950061EE66 /* Sources */,
+				2971D63B1E45A2950061EE66 /* Frameworks */,
+				2971D63C1E45A2950061EE66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2971D6401E45A2950061EE66 /* PBXTargetDependency */,
+			);
+			name = "表情的显示UITests";
+			productName = "表情的显示UITests";
+			productReference = 2971D63E1E45A2950061EE66 /* 表情的显示UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2971D6171E45A2950061EE66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Mr Zhang";
+				TargetAttributes = {
+					2971D61E1E45A2950061EE66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2971D6321E45A2950061EE66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2971D61E1E45A2950061EE66;
+					};
+					2971D63D1E45A2950061EE66 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2971D61E1E45A2950061EE66;
+					};
+				};
+			};
+			buildConfigurationList = 2971D61A1E45A2950061EE66 /* Build configuration list for PBXProject "表情的显示" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2971D6161E45A2950061EE66;
+			productRefGroup = 2971D6201E45A2950061EE66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2971D61E1E45A2950061EE66 /* 表情的显示 */,
+				2971D6321E45A2950061EE66 /* 表情的显示Tests */,
+				2971D63D1E45A2950061EE66 /* 表情的显示UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2971D61D1E45A2950061EE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2971D62D1E45A2950061EE66 /* LaunchScreen.storyboard in Resources */,
+				2971D6621E45A3600061EE66 /* Emoticons.bundle in Resources */,
+				2971D62A1E45A2950061EE66 /* Assets.xcassets in Resources */,
+				2971D6281E45A2950061EE66 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D6311E45A2950061EE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D63C1E45A2950061EE66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2971D61B1E45A2950061EE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2971D65F1E45A3600061EE66 /* EmoticonAttachment.swift in Sources */,
+				2971D6251E45A2950061EE66 /* ViewController.swift in Sources */,
+				2971D6611E45A3600061EE66 /* EmoticonPackage.swift in Sources */,
+				2971D65E1E45A3600061EE66 /* Emoticon.swift in Sources */,
+				2971D65C1E45A3600061EE66 /* EmoticonController.swift in Sources */,
+				2971D65D1E45A3600061EE66 /* EmoticonViewCell.swift in Sources */,
+				2971D6231E45A2950061EE66 /* AppDelegate.swift in Sources */,
+				2971D6601E45A3600061EE66 /* EmoticonManger.swift in Sources */,
+				2971D6651E45A38D0061EE66 /* FindEmoticon.swift in Sources */,
+				2971D6631E45A3600061EE66 /* UITextView-Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D62F1E45A2950061EE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2971D6381E45A2950061EE66 /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2971D63A1E45A2950061EE66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2971D6431E45A2950061EE66 /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2971D6351E45A2950061EE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2971D61E1E45A2950061EE66 /* 表情的显示 */;
+			targetProxy = 2971D6341E45A2950061EE66 /* PBXContainerItemProxy */;
+		};
+		2971D6401E45A2950061EE66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2971D61E1E45A2950061EE66 /* 表情的显示 */;
+			targetProxy = 2971D63F1E45A2950061EE66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2971D6261E45A2950061EE66 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2971D6271E45A2950061EE66 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2971D62B1E45A2950061EE66 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2971D62C1E45A2950061EE66 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2971D6451E45A2950061EE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2971D6461E45A2950061EE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2971D6481E45A2950061EE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情的显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2971D6491E45A2950061EE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "表情的显示/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2971D64B1E45A2950061EE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表情的显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情的显示.app/表情的显示";
+			};
+			name = Debug;
+		};
+		2971D64C1E45A2950061EE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "表情的显示Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/表情的显示.app/表情的显示";
+			};
+			name = Release;
+		};
+		2971D64E1E45A2950061EE66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "表情的显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "表情的显示";
+			};
+			name = Debug;
+		};
+		2971D64F1E45A2950061EE66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "表情的显示UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "dyry.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "表情的显示";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2971D61A1E45A2950061EE66 /* Build configuration list for PBXProject "表情的显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2971D6451E45A2950061EE66 /* Debug */,
+				2971D6461E45A2950061EE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2971D6471E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2971D6481E45A2950061EE66 /* Debug */,
+				2971D6491E45A2950061EE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2971D64A1E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2971D64B1E45A2950061EE66 /* Debug */,
+				2971D64C1E45A2950061EE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2971D64D1E45A2950061EE66 /* Build configuration list for PBXNativeTarget "表情的显示UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2971D64E1E45A2950061EE66 /* Debug */,
+				2971D64F1E45A2950061EE66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2971D6171E45A2950061EE66 /* Project object */;
+}

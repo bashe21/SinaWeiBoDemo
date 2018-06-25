@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="VistorView" customModule="SinaWeiBoApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_smallicon" translatesAutoresizingMaskIntoConstraints="NO" id="oaC-mw-S2I" userLabel="转盘">
+                    <rect key="frame" x="100" y="146" width="175" height="175"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_mask_smallicon" translatesAutoresizingMaskIntoConstraints="NO" id="4ce-CJ-gl3" userLabel="背景">
+                    <rect key="frame" x="0.0" y="161" width="375" height="175"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="visitordiscover_feed_image_house" translatesAutoresizingMaskIntoConstraints="NO" id="7nA-4L-1NE" userLabel="图标">
+                    <rect key="frame" x="140" y="226" width="94" height="90"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="关注一些人，会看这里有什么惊喜" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cV1-dx-cgf" userLabel="显示label">
+                    <rect key="frame" x="80" y="396" width="215" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="214.5" id="xuY-gx-2S7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8RV-Tm-2R3">
+                    <rect key="frame" x="80" y="443" width="90" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="HVp-Zm-jmo"/>
+                        <constraint firstAttribute="width" constant="90" id="ank-dq-Sfm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="注 册">
+                        <color key="titleColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hJv-51-g15">
+                    <rect key="frame" x="205" y="443" width="90" height="32"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="Kgk-Zm-rpS"/>
+                        <constraint firstAttribute="height" constant="32" id="ol7-NJ-z3O"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="登 录">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.9137254901960784" green="0.9137254901960784" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="8RV-Tm-2R3" firstAttribute="leading" secondItem="cV1-dx-cgf" secondAttribute="leading" id="2E1-JR-TRC"/>
+                <constraint firstAttribute="trailing" secondItem="4ce-CJ-gl3" secondAttribute="trailing" id="59t-cI-Oxf"/>
+                <constraint firstItem="cV1-dx-cgf" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="8KX-E5-FdR"/>
+                <constraint firstItem="7nA-4L-1NE" firstAttribute="bottom" secondItem="4ce-CJ-gl3" secondAttribute="bottom" constant="-20" id="Aro-4M-S0i"/>
+                <constraint firstItem="hJv-51-g15" firstAttribute="top" secondItem="8RV-Tm-2R3" secondAttribute="top" id="Awl-w9-OsK"/>
+                <constraint firstItem="4ce-CJ-gl3" firstAttribute="top" secondItem="oaC-mw-S2I" secondAttribute="bottom" constant="-160" id="BMD-I3-mK3"/>
+                <constraint firstItem="4ce-CJ-gl3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C73-gH-ZRK"/>
+                <constraint firstItem="cV1-dx-cgf" firstAttribute="top" secondItem="4ce-CJ-gl3" secondAttribute="bottom" constant="60" id="NnY-kR-Ea8"/>
+                <constraint firstItem="8RV-Tm-2R3" firstAttribute="top" secondItem="cV1-dx-cgf" secondAttribute="bottom" constant="30" id="Rq0-od-6ru"/>
+                <constraint firstItem="7nA-4L-1NE" firstAttribute="centerX" secondItem="oaC-mw-S2I" secondAttribute="centerX" id="Xmf-h2-qMK"/>
+                <constraint firstItem="hJv-51-g15" firstAttribute="trailing" secondItem="cV1-dx-cgf" secondAttribute="trailing" id="ZsK-tM-5yi"/>
+                <constraint firstItem="oaC-mw-S2I" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="-100" id="d5P-1q-w3N"/>
+                <constraint firstItem="oaC-mw-S2I" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="mht-fO-ekO"/>
+            </constraints>
+            <connections>
+                <outlet property="iconView" destination="7nA-4L-1NE" id="KeS-lW-FsI"/>
+                <outlet property="loginBtn" destination="hJv-51-g15" id="a42-yX-vrO"/>
+                <outlet property="registerBtn" destination="8RV-Tm-2R3" id="k8l-6X-eHW"/>
+                <outlet property="rotationView" destination="oaC-mw-S2I" id="mTt-Ae-0Mb"/>
+                <outlet property="tipView" destination="cV1-dx-cgf" id="3q1-VY-XlT"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="visitordiscover_feed_image_house" width="94" height="90"/>
+        <image name="visitordiscover_feed_image_smallicon" width="175" height="175"/>
+        <image name="visitordiscover_feed_mask_smallicon" width="175" height="175"/>
+    </resources>
+</document>

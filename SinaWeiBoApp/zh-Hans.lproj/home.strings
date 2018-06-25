@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "今天天气不错"; ObjectID = "2Gz-pk-GVk"; */
+"2Gz-pk-GVk.text" = "今天天气不错";
+
+/* Class = "UILabel"; text = "今天天气真的不错哦"; ObjectID = "3BS-eX-apm"; */
+"3BS-eX-apm.text" = "今天天气真的不错哦";
+
+/* Class = "UIButton"; normalTitle = "赞"; ObjectID = "CZh-Me-Ouo"; */
+"CZh-Me-Ouo.normalTitle" = "赞";
+
+/* Class = "UILabel"; text = "10分钟前"; ObjectID = "KMm-ve-1LA"; */
+"KMm-ve-1LA.text" = "10分钟前";
+
+/* Class = "UITabBarItem"; title = "首页"; ObjectID = "Qwh-yC-vQC"; */
+"Qwh-yC-vQC.title" = "首页";
+
+/* Class = "UILabel"; text = "来自iPhone7"; ObjectID = "TVK-vT-AhY"; */
+"TVK-vT-AhY.text" = "来自iPhone7";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "Ut2-dt-kYG"; */
+"Ut2-dt-kYG.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "转发"; ObjectID = "dh0-e4-UPc"; */
+"dh0-e4-UPc.normalTitle" = "转发";
+
+/* Class = "UILabel"; text = "小马哥"; ObjectID = "obb-jb-4CN"; */
+"obb-jb-4CN.text" = "小马哥";
+
+/* Class = "UIButton"; normalTitle = "评论"; ObjectID = "thW-Xp-1XL"; */
+"thW-Xp-1XL.normalTitle" = "评论";
